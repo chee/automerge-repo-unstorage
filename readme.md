@@ -11,6 +11,8 @@ adapter](https://automerge.org/docs/repositories/storage/) for
 pnpm add automerge-repo-unstorage
 ```
 
+use any [unstorage driver](https://unstorage.unjs.io/drivers).
+
 ```ts
 import {BrowserWebSocketClientAdapter} from "@automerge/automerge-repo-network-websocket"
 import {Repo} from "@automerge/automerge-repo"

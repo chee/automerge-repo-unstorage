@@ -27,3 +27,4 @@ dist-ssr
 tests/navigator.storage/automerge
 
 /.test-storage/
+/.data/

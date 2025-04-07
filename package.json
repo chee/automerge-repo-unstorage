@@ -1,6 +1,6 @@
 {
-	"name": "automerge-repo-storage-browserfs",
-	"description": "an automerge repo storage provider for the browser's file system api (including origin private file system)",
+	"name": "automerge-repo-unstorage",
+	"description": "an automerge repo storage adapter for unstorage drivers",
 	"keywords": [
 		"automerge",
 		"repo",
@@ -24,6 +24,8 @@
 		"@automerge/automerge-repo-storage-indexeddb": "^1.2.1",
 		"@netlify/blobs": "^8.1.2",
 		"@vitest/browser": "^2.1.1",
+		"better-sqlite3": "^11.9.1",
+		"db0": "^0.3.1",
 		"prettier": "^3.3.3",
 		"tsup": "^8.3.0",
 		"typescript": "^5.5.3",
@@ -33,5 +35,13 @@
 	},
 	"dependencies": {
 		"unstorage": "^1.15.0"
+	},
+	"pnpm": {
+		"ignoredBuiltDependencies": [
+			"better-sqlite3"
+		],
+		"onlyBuiltDependencies": [
+			"better-sqlite3"
+		]
 	}
 }
