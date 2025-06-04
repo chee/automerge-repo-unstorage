@@ -28,3 +28,4 @@ tests/navigator.storage/automerge
 
 /.test-storage/
 /.data/
+*.tsbuildinfo
